@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+footer {
+  bottom: 0px;
+  position: fixed;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+a {
+  color: black;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.App-logo {
+  height: 150px;
+  width: 100%;
+  max-width: 500px;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  padding: 5px;
+}
+p {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+.linkDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin: 5px;
+  margin-right: 20px;
+}
+.arrowDiv {
+  text-align: center;
+}
+
+.arrow-logo {
+  height: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.homeIcon {
+  height: 60px;
+  bottom: 0px;
+  position: fixed;
+  left: 43%;
+}
+.homeIconDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.proFoLogo {
+  position: sticky;
+  width: 70px;
+  height: 60px;
+  left: 10px;
+  top: 1px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.myStyle {
+  background-color: red;
+}
+.header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  position: fixed;
+  /* margin-bottom: 70px; */
+  top: 0px;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  max-width: 500px;
+  /* background-color: white; */
+  /* position: fixed; */
+  margin-bottom: 70px;
+}
+.bottomLinks {
+  color: blue;
+  text-decoration-line: underline;
+}
+/* a {
+  color: black;
+  border-bottom: none;
+  text-decoration: none;
+} */
+
+.menuLogo {
+  height: 50px;
+  justify-content: center;
+  width: 200px;
+}
+.buttonDiv {
+  display: flex;
+}
+.bm-burger-button {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  right: 10px;
+  top: 5px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: black;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: black;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+/* .bm-cross {
+  background: red;
+  height: 15px;
+  width: 5px;
+} */
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #e0dca6;
+  padding: 0.8em;
+}
+.menuLinks {
+  color: #e0dca6;
+}
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: pink;
+}
+
+.menu-item {
+  color: white;
+}
+.carPic {
+  height: 150px;
+  width: 220px;
+}
+
+.cityHeaders {
+  /* border-radius: 20%; */
+  /* border: black; */
+  /* border-style: ridge;
+  border-width: 3px; */
+  width: 95%;
+  min-width: 185px;
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+.cityHeadersText {
+  padding: 0px;
+  text-align: center;
+  font-size: 50px;
+}
+.cards {
+  width: 500px;
+}
+
+.avatarPic {
+  height: 80px;
+}
+
+.cardHeader {
+  font-size: 50px;
+  width: 350px;
+  max-width: 350px;
+}
+.collapsedContent {
+  font-size: 50px;
+  width: 350px;
+  max-width: 350px;
+}
+
+.cityFilter {
+  text-align: center;
+  font-size: 40px;
+}
+
+.aline_left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heartIcon {
+  border-radius: 50%;
+  margin: 5px;
+  height: 32px;
+  box-shadow: 2px 2px 2px;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+}
+/* .MuiListItem-root-1 {
+  justify-content: center;
+}
+.MuiListItemText-inset-17 {
+  padding-left: 0px;
+  justify-content: center;
+} */
+
+@media only screen and (min-width: 600px) {
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

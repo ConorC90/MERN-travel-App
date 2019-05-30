@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+footer {
+  bottom: 0px;
+  position: fixed;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+a {
+  color: black;
+  border-bottom: none;
+  text-decoration: none;
+}
+.App-logo {
+  height: 150px;
+  width: 100%;
+  max-width: 500px;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  padding: 5px;
+}
+p {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+.linkDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin: 5px;
+  margin-right: 20px;
+}
+.arrowDiv {
+  text-align: center;
+}
+.arrow-logo {
+  height: 100px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.homeIcon {
+  height: 60px;
+  bottom: 0px;
+  position: fixed;
+  left: 43%;
+}
+.homeIconDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.proFoLogo {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 70px;
+  height: 60px;
+  left: 10px;
+  top: 1px;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.myStyle {
+  background-color: red;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+}
+nav {
+  height: 70px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 70px;
+}
+.bottomLinks {
+  color: blue;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+.menuLogo {
+  height: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+}
+.buttonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bm-burger-button {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  right: 10px;
+  top: 5px;
+}
+.bm-burger-bars {
+  background: black;
+}
+.bm-burger-bars-hover {
+  background: black;
+}
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+.bm-morph-shape {
+  fill: #373a47;
+}
+.bm-item-list {
+  color: #e0dca6;
+  padding: 0.8em;
+}
+.menuLinks {
+  color: #e0dca6;
+}
+.bm-item {
+  display: inline-block;
+}
+.bm-overlay {
+  background: pink;
+}
+.menu-item {
+  color: white;
+}
+.carPic {
+  height: 150px;
+  width: 220px;
+}
+.cityHeaders {
+  width: 95%;
+  min-width: 185px;
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+.cityHeadersText {
+  padding: 0px;
+  text-align: center;
+  font-size: 50px;
+}
+.cards {
+  width: 500px;
+}
+.avatarPic {
+  height: 80px;
+}
+.cardHeader {
+  font-size: 50px;
+  width: 350px;
+  max-width: 350px;
+}
+.collapsedContent {
+  font-size: 50px;
+  width: 350px;
+  max-width: 350px;
+}
+.cityFilter {
+  text-align: center;
+  font-size: 40px;
+}
+.aline_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.heartIcon {
+  border-radius: 50%;
+  margin: 5px;
+  height: 32px;
+  -webkit-box-shadow: 2px 2px 2px;
+  box-shadow: 2px 2px 2px;
+}
+.textAlign {
+  text-align: center;
+}
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  padding: 0px;
+}
+@media only screen and (min-width: 600px) {
+  .App {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

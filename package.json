@@ -1,0 +1,43 @@
+{
+  "name": "tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConorC90/Travel-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConorC90/Travel-app/issues"
+  },
+  "homepage": "https://github.com/ConorC90/Travel-app#readme",
+  "dependencies": {
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "classnames": "^2.2.6",
+    "concurrently": "^4.1.0",
+    "config": "^3.1.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mongoose": "^5.4.19",
+    "passport-google-oauth20": "^2.0.0",
+    "react-google-login": "^5.0.4",
+    "react-select-country-list": "^1.0.7"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "nodemon": "^1.18.10"
+  }
+}
