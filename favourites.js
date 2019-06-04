@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-var FavouritiesSchema = new Schema({
+const FavouritiesSchema = new Schema({
   toursId: String,
   name: String,
   favourite: Array

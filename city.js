@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 mongoose.set("useCreateIndex", true);
 const Schema = mongoose.Schema;
 
-var citySchema = new Schema({
+const citySchema = new Schema({
   name: String,
   country: String
 });

@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 require("dotenv").config();
 //Import the mongoose module
-var mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const app = express();
 const City = require("./city");
 const Tour = require("./itineary");
@@ -40,7 +40,7 @@ app.get("/cities/:_id", (req, res) => {
 });
 
 // get an instance of router
-var router = express.Router();
+const router = express.Router();
 
 // router.post("/users/all", function(req, res) {
 //   const user = new User({
@@ -57,7 +57,7 @@ app.use("/", router);
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 //Set up default mongoose connection
-var mongoDB = process.env.MONGODB;
+const mongoDB = process.env.MONGODB;
 
 mongoose
   .connect(mongoDB, { useNewUrlParser: true })

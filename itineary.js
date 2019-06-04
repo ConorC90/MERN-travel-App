@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-var itinSchema = new Schema({
+const itinSchema = new Schema({
   title: String,
   sub_title: String,
   profile_pic: String,

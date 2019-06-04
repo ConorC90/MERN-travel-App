@@ -61,7 +61,7 @@ router.post("/", (req, res) => {
 });
 
 //get user by ID
-router.get("/:id", (req, res) => {
+router.get("/:id/", (req, res) => {
   User.findById(req.params.id, (err, data) => {
     if (err) res.send(err);
     res.send(data);
@@ -84,10 +84,10 @@ router.put("/:id", function(req, res) {
   });
 });
 
-router.get("/:id/:favourites", (req, res) => {
-  User.findOne(req.params._id, (err, data) => {
+router.get("/:id/favourite", (req, res) => {
+  User.findById(req.params.id, (err, data) => {
     if (err) res.send(err);
-    res.send(data);
+    res.send(data.favourite);
   });
 });
 

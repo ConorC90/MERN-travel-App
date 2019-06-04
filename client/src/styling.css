@@ -224,6 +224,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 80px;
 }
 
+.avatar {
+  height: 60px;
+}
+
 .cardHeader {
   font-size: 50px;
   width: 350px;

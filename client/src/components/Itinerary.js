@@ -50,11 +50,11 @@ class Tours extends Component {
   }
 
   render() {
-    var tours = this.props.tours.payload;
+    const tours = this.props.tours.payload;
     const { classes } = this.props;
 
-    var tourList = tours.map((tour, index) => (
-      <Tour itin={tour} number={index} styles={classes} />
+    const tourList = tours.map((tour, index) => (
+      <Tour itin={tour} key={index} number={index} styles={classes} />
     ));
 
     return (

@@ -27,6 +27,9 @@ class Tour extends Component {
 
   handleExpandClick = () => {
     this.setState(state => ({ expanded: !state.expanded }));
+    this.setState(function(prevState) {
+      return { isToggleOn: !prevState.isToggleOn };
+    });
   };
 
   handleClick() {
@@ -47,9 +50,9 @@ class Tour extends Component {
   putFav = () => {};
 
   render() {
-    var tour = this.props.itin;
-    var index = this.props.number;
-    var classes = this.props.styles;
+    const tour = this.props.itin;
+    const index = this.props.number;
+    const classes = this.props.styles;
     return (
       <div>
         <Card className={classes.card} key={index} id={index}>
@@ -101,9 +104,7 @@ class Tour extends Component {
                   [classes.expandOpen]: this.state.expanded
                 })}
               />
-              <p onClick={this.handleClick}>
-                {this.state.isToggleOn ? "View More" : "View Less"}
-              </p>
+              <p>{this.state.isToggleOn ? "View More" : "View Less"}</p>
               <ExpandMoreIcon
                 className={classnames(classes.expand, {
                   [classes.expandOpen]: this.state.expanded
@@ -116,7 +117,7 @@ class Tour extends Component {
               timeout="auto"
               // unmountOnExit
             >
-              <Typography paragraph>More Info:</Typography>
+              <Typography paragraph>More Info: {tour.title} </Typography>
               <Typography paragraph>Activites</Typography>
               <Carasole />
               <TextField
