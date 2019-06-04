@@ -65,6 +65,6 @@ mongoose
   .catch(err => console.log(err));
 
 //Get the default connection
-// var db = mongoose.connection;
+// /db = mongoose.connection;
 
 module.exports = app;
