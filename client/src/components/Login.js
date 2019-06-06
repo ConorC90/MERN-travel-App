@@ -113,7 +113,6 @@ class Login extends Component {
     this.setState(state => ({ showPassword: !state.showPassword }));
   };
   responseGoogle = response => {
-    console.log(response);
     const user = {
       username: response.profileObj.name,
       email: response.profileObj.email,

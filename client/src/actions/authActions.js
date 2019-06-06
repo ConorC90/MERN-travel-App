@@ -157,7 +157,6 @@ export const googlelogin = user => dispatch => {
   axios
     .post("/auth/google", user, config)
     .then(res => {
-      console.log(res.data);
       dispatch({
         type: LOGIN_SUCCESS,
         payload: res.data
@@ -175,7 +174,6 @@ export const googlelogin = user => dispatch => {
 
 //Logout user
 export const logout = () => dispatch => {
-  console.log("you are logged out");
   dispatch({
     type: LOGOUT_SUCCESS
   });

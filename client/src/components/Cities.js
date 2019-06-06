@@ -27,9 +27,7 @@ class Cities extends Component {
   };
 
   render() {
-    console.log(this.props);
     const cities = this.props.cities.payload;
-    console.log(cities);
     let filteredCities = cities.filter(city => {
       let cityName = city.name.toLowerCase();
       return cityName.indexOf(this.state.cityFilter.toLowerCase()) !== -1;

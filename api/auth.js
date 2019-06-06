@@ -19,7 +19,6 @@ router.get("/google", (req, res) => {
 // changed from router.post
 router.post("/google", (req, res) => {
   const googleUser = req.body;
-  console.log("GOOGLEUSER", req.body);
   User.findOne({ email: googleUser.email }).then(user => {
     if (!user) {
       const newUser = new User({

@@ -32,7 +32,6 @@ class App extends Component {
                   <Route exact path="/cities/:cityName" component={Itinerary} />
                   <Route path="/login" component={login} />
                   <Route path="/signUp" component={SignUp} />
-                  {/* <Route path="/saftynet" component={SaftyNet} /> */}
                 </Switch>
               </main>
             </div>
