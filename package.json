@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ConorC90/Travel-app#readme",
   "dependencies": {
     "@material-ui/icons": "^3.0.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "classnames": "^2.2.6",
     "concurrently": "^4.1.0",
